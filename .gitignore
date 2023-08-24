@@ -16,6 +16,6 @@ node_modules
 pnpm-global
 TODOs.md
 # exclude everything
-dist/*
+.vitepress/dist/*
 # exception to the rule
-!dist/.gitkeep
+!.vitepress/dist/.gitkeep
