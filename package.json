@@ -4,8 +4,8 @@
   },
   "scripts": {
     "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:build": "vitepress build content",
+    "docs:preview": "vitepress preview content"
   },
   "dependencies": {
     "markdown-it-task-lists": "^2.1.1",
