@@ -7,7 +7,6 @@ export default defineConfig({
   title: "PM Cockpit",
   srcDir: 'content',
   description: "One stop shop for PMs",
-  base: '/',
   markdown: {
     config: (md) => {
       md.use(markdownItTaskLists)
